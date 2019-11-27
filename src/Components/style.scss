@@ -1,0 +1,56 @@
+
+//Config files
+
+@import 'base/variable';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/common';
+@import 'base/reset';
+
+@import 'functions/functions';
+@import 'mixins/animation';
+@import 'mixins/border';
+@import 'mixins/transition';
+
+
+//@import 'base/variable';
+// @import 'base/typography';
+// @import 'base/mixins';
+//@import 'base/common';
+//@import 'base/animation';
+
+
+//layout
+@import 'layout/responsive';
+@import 'atoms/button';
+
+@import 'atoms/input';
+@import 'atoms/navlist';
+@import 'atoms/icons';
+
+@import 'molecules/article/image';
+@import 'molecules/article/content';
+@import 'molecules/search/sinput';
+@import 'molecules/article/tabs';
+@import 'molecules/footer/list';
+
+@import 'organisms/header';
+@import 'organisms/menubar';
+@import 'organisms/slider';
+@import 'organisms/searchsec';
+@import 'organisms/articlesec';
+@import 'organisms/contact';
+@import 'organisms/footer';
+
+
+
+//Components
+// @import 'Components/search';
+// @import 'Components/burgermenu';
+// @import 'Components/contact';
+// @import 'Components/header';
+// @import 'Components/button';
+// @import 'Components/slider';
+// @import 'Components/article';
+// @import 'Components/thankyou';
+// @import 'Components/footer';

@@ -1,0 +1,29 @@
+.contact-form {
+    form {
+        input[type=text],input[type=email],textarea {
+            padding: 21px 25px 20px;
+                background: rgba(0, 0, 0, 0.2);
+                border: none;
+                width: 100%;
+                @include border-radius(4px);
+                color: $white;
+    
+                &:focus+label {
+                    margin-top: -22px;
+                    font-size: 70%;
+                    @include transition(all, 0.4s, ease, 0s );
+                }
+        }
+        label {
+            position: absolute;
+            color: $white;
+            left: 42px;
+            top: 19px;
+            font-weight: 300;
+            @include transition(all, 0.4s, ease, 0s );
+            span {
+                color: $red;
+            }
+        }
+    }
+}

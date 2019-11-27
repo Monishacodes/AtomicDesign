@@ -1,0 +1,40 @@
+.contact {
+    background: $blue;  
+
+    &-heading {
+        h2 {
+            text-transform: uppercase;
+            color: $white;
+            font-weight: 200;
+            font-size: $f-xlarge;
+            margin: 0;
+            //padding-bottom: 20px;
+            position: relative;
+            line-height: 1;
+
+
+            &::before {
+                position: absolute;
+                content: '';
+                bottom: 0;
+                height: 4px;
+                left: 0;
+                right: 0;
+                width: 84px;
+                background: rgba(0, 0, 0, 0.3);
+                margin: auto;
+            }
+            &.letteranimation {
+                @include animation(letter-anim ,1.3s, ease-in);     
+            }
+        }
+
+        p {
+            margin: 0;
+            padding: 25px 30px;
+            font-weight: 200;
+            color: $white;
+            line-height: 1;
+        }
+    }
+}

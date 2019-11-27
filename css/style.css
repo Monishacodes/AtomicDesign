@@ -1,0 +1,4887 @@
+/* line 28, ../src/Components/base/_variable.scss */
+.text-orange {
+  color: #eb7d4b; }
+
+/* line 31, ../src/Components/base/_variable.scss */
+.text-black {
+  color: #000; }
+
+/* line 34, ../src/Components/base/_variable.scss */
+.text-white {
+  color: #fff; }
+
+/* line 37, ../src/Components/base/_variable.scss */
+.art-pink {
+  background: #cc227e; }
+
+/* line 40, ../src/Components/base/_variable.scss */
+.art-yellow {
+  background: #cc8a22; }
+
+/* line 43, ../src/Components/base/_variable.scss */
+.art-blue {
+  background: #203d9b; }
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../src/Components/base/_reset.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../src/Components/base/_reset.scss */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../src/Components/base/_reset.scss */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../src/Components/base/_reset.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../src/Components/base/_reset.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../src/Components/base/_reset.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../src/Components/base/_reset.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../src/Components/base/_reset.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../src/Components/base/_reset.scss */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../src/Components/base/_reset.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../src/Components/base/_reset.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../src/Components/base/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 133, ../src/Components/base/_reset.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 137, ../src/Components/base/_reset.scss */
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../src/Components/base/_reset.scss */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../src/Components/base/_reset.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../src/Components/base/_reset.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/* line 180, ../src/Components/base/_reset.scss */
+input:focus, input:active {
+  outline: none; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 188, ../src/Components/base/_reset.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 197, ../src/Components/base/_reset.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 208, ../src/Components/base/_reset.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 220, ../src/Components/base/_reset.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 231, ../src/Components/base/_reset.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 242, ../src/Components/base/_reset.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 255, ../src/Components/base/_reset.scss */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 263, ../src/Components/base/_reset.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 272, ../src/Components/base/_reset.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 282, ../src/Components/base/_reset.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 292, ../src/Components/base/_reset.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 301, ../src/Components/base/_reset.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 310, ../src/Components/base/_reset.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 322, ../src/Components/base/_reset.scss */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 330, ../src/Components/base/_reset.scss */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 341, ../src/Components/base/_reset.scss */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 349, ../src/Components/base/_reset.scss */
+[hidden] {
+  display: none; }
+
+/* line 12, ../src/Components/base/_typography.scss */
+.text-center {
+  text-align: center; }
+/* line 15, ../src/Components/base/_typography.scss */
+.text-right {
+  text-align: right; }
+/* line 18, ../src/Components/base/_typography.scss */
+.text-sans {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 1, ../src/Components/base/_common.scss */
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+/* line 7, ../src/Components/base/_common.scss */
+.fixed {
+  transition: all 0.4s;
+  position: fixed;
+  background: #87509c;
+  z-index: 9999;
+  padding-top: 0 !important;
+  /* margin: auto; */
+  width: 100%;
+  padding: 6px; }
+
+/* line 24, ../src/Components/base/_common.scss */
+p {
+  font-size: 16px; }
+
+/* line 28, ../src/Components/base/_common.scss */
+ul {
+  list-style: none;
+  letter-spacing: 1.2px;
+  display: -webkit-inline-box; }
+
+/* line 35, ../src/Components/base/_common.scss */
+.container {
+  max-width: 1110px;
+  padding: 0; }
+
+/* line 41, ../src/Components/base/_common.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/* line 47, ../src/Components/base/_common.scss */
+.row {
+  margin: 0; }
+
+/* line 52, ../src/Components/base/_common.scss */
+.m-0 {
+  margin: 0; }
+/* line 55, ../src/Components/base/_common.scss */
+.mt-0 {
+  margin-top: 0; }
+/* line 58, ../src/Components/base/_common.scss */
+.mb-0 {
+  margin-bottom: 0; }
+/* line 61, ../src/Components/base/_common.scss */
+.mr-0 {
+  margin-right: 0; }
+/* line 64, ../src/Components/base/_common.scss */
+.ml-0 {
+  margin-left: 0; }
+/* line 69, ../src/Components/base/_common.scss */
+.mb-10 {
+  margin-bottom: 10px; }
+/* line 72, ../src/Components/base/_common.scss */
+.mb-60 {
+  margin-bottom: 60px; }
+/* line 75, ../src/Components/base/_common.scss */
+.mb-53 {
+  margin-bottom: 53px; }
+/* line 78, ../src/Components/base/_common.scss */
+.mb-145 {
+  margin-bottom: 145px; }
+/* line 84, ../src/Components/base/_common.scss */
+.mt-30 {
+  margin-top: 30px; }
+/* line 87, ../src/Components/base/_common.scss */
+.mt-27 {
+  margin-top: 27px; }
+
+/* line 96, ../src/Components/base/_common.scss */
+.pt-107 {
+  padding-top: 107px; }
+/* line 99, ../src/Components/base/_common.scss */
+.pt-43 {
+  padding-top: 38px; }
+/* line 104, ../src/Components/base/_common.scss */
+.pr-0 {
+  padding-right: 0; }
+/* line 109, ../src/Components/base/_common.scss */
+.pl-30 {
+  padding-left: 30px; }
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../src/Components/base/_reset.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../src/Components/base/_reset.scss */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../src/Components/base/_reset.scss */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../src/Components/base/_reset.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../src/Components/base/_reset.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../src/Components/base/_reset.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../src/Components/base/_reset.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../src/Components/base/_reset.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../src/Components/base/_reset.scss */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../src/Components/base/_reset.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../src/Components/base/_reset.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../src/Components/base/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 133, ../src/Components/base/_reset.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 137, ../src/Components/base/_reset.scss */
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../src/Components/base/_reset.scss */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../src/Components/base/_reset.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../src/Components/base/_reset.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/* line 180, ../src/Components/base/_reset.scss */
+input:focus, input:active {
+  outline: none; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 188, ../src/Components/base/_reset.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 197, ../src/Components/base/_reset.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 208, ../src/Components/base/_reset.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 220, ../src/Components/base/_reset.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 231, ../src/Components/base/_reset.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 242, ../src/Components/base/_reset.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 255, ../src/Components/base/_reset.scss */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 263, ../src/Components/base/_reset.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 272, ../src/Components/base/_reset.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 282, ../src/Components/base/_reset.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 292, ../src/Components/base/_reset.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 301, ../src/Components/base/_reset.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 310, ../src/Components/base/_reset.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 322, ../src/Components/base/_reset.scss */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 330, ../src/Components/base/_reset.scss */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 341, ../src/Components/base/_reset.scss */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 349, ../src/Components/base/_reset.scss */
+[hidden] {
+  display: none; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-5 {
+  margin: 5px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-5 {
+  padding: 5px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-5 {
+  margin-top: 5px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-5 {
+  padding-top: 5px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-5 {
+  margin: 5px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-5 {
+  margin: auto 5px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-5 {
+  padding: 5px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-5 {
+  padding: auto 5px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-5 {
+  margin: 5px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-5 {
+  padding: 5px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-5 {
+  margin-bottom: 5px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-5 {
+  padding-bottom: 5px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-5 {
+  margin: 5px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-5 {
+  margin: auto 5px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-5 {
+  padding: 5px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-5 {
+  padding: auto 5px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-5 {
+  margin: 5px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-5 {
+  padding: 5px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-5 {
+  margin-left: 5px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-5 {
+  padding-left: 5px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-5 {
+  margin: 5px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-5 {
+  margin: auto 5px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-5 {
+  padding: 5px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-5 {
+  padding: auto 5px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-5 {
+  margin: 5px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-5 {
+  padding: 5px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-5 {
+  margin-right: 5px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-5 {
+  padding-right: 5px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-5 {
+  margin: 5px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-5 {
+  margin: auto 5px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-5 {
+  padding: 5px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-5 {
+  padding: auto 5px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-5 {
+  margin: 5px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-5 {
+  padding: 5px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-5 {
+  margin-y: 5px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-5 {
+  padding-y: 5px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-5 {
+  margin: 5px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-5 {
+  margin: auto 5px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-5 {
+  padding: 5px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-5 {
+  padding: auto 5px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-5 {
+  margin: 5px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-5 {
+  padding: 5px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-5 {
+  margin-x: 5px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-5 {
+  padding-x: 5px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-5 {
+  margin: 5px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-5 {
+  margin: auto 5px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-5 {
+  padding: 5px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-5 {
+  padding: auto 5px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-10 {
+  margin: 10px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-10 {
+  padding: 10px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-10 {
+  margin-top: 10px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-10 {
+  padding-top: 10px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-10 {
+  margin: 10px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-10 {
+  margin: auto 10px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-10 {
+  padding: 10px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-10 {
+  padding: auto 10px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-10 {
+  margin: 10px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-10 {
+  padding: 10px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-10 {
+  margin-bottom: 10px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-10 {
+  padding-bottom: 10px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-10 {
+  margin: 10px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-10 {
+  margin: auto 10px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-10 {
+  padding: 10px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-10 {
+  padding: auto 10px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-10 {
+  margin: 10px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-10 {
+  padding: 10px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-10 {
+  margin-left: 10px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-10 {
+  padding-left: 10px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-10 {
+  margin: 10px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-10 {
+  margin: auto 10px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-10 {
+  padding: 10px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-10 {
+  padding: auto 10px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-10 {
+  margin: 10px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-10 {
+  padding: 10px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-10 {
+  margin-right: 10px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-10 {
+  padding-right: 10px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-10 {
+  margin: 10px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-10 {
+  margin: auto 10px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-10 {
+  padding: 10px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-10 {
+  padding: auto 10px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-10 {
+  margin: 10px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-10 {
+  padding: 10px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-10 {
+  margin-y: 10px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-10 {
+  padding-y: 10px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-10 {
+  margin: 10px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-10 {
+  margin: auto 10px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-10 {
+  padding: 10px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-10 {
+  padding: auto 10px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-10 {
+  margin: 10px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-10 {
+  padding: 10px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-10 {
+  margin-x: 10px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-10 {
+  padding-x: 10px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-10 {
+  margin: 10px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-10 {
+  margin: auto 10px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-10 {
+  padding: 10px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-10 {
+  padding: auto 10px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-15 {
+  margin: 15px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-15 {
+  padding: 15px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-15 {
+  margin-top: 15px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-15 {
+  padding-top: 15px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-15 {
+  margin: 15px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-15 {
+  margin: auto 15px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-15 {
+  padding: 15px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-15 {
+  padding: auto 15px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-15 {
+  margin: 15px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-15 {
+  padding: 15px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-15 {
+  margin-bottom: 15px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-15 {
+  padding-bottom: 15px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-15 {
+  margin: 15px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-15 {
+  margin: auto 15px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-15 {
+  padding: 15px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-15 {
+  padding: auto 15px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-15 {
+  margin: 15px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-15 {
+  padding: 15px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-15 {
+  margin-left: 15px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-15 {
+  padding-left: 15px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-15 {
+  margin: 15px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-15 {
+  margin: auto 15px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-15 {
+  padding: 15px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-15 {
+  padding: auto 15px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-15 {
+  margin: 15px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-15 {
+  padding: 15px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-15 {
+  margin-right: 15px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-15 {
+  padding-right: 15px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-15 {
+  margin: 15px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-15 {
+  margin: auto 15px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-15 {
+  padding: 15px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-15 {
+  padding: auto 15px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-15 {
+  margin: 15px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-15 {
+  padding: 15px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-15 {
+  margin-y: 15px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-15 {
+  padding-y: 15px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-15 {
+  margin: 15px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-15 {
+  margin: auto 15px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-15 {
+  padding: 15px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-15 {
+  padding: auto 15px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-15 {
+  margin: 15px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-15 {
+  padding: 15px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-15 {
+  margin-x: 15px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-15 {
+  padding-x: 15px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-15 {
+  margin: 15px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-15 {
+  margin: auto 15px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-15 {
+  padding: 15px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-15 {
+  padding: auto 15px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-20 {
+  margin: 20px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-20 {
+  padding: 20px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-20 {
+  margin-top: 20px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-20 {
+  padding-top: 20px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-20 {
+  margin: 20px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-20 {
+  margin: auto 20px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-20 {
+  padding: 20px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-20 {
+  padding: auto 20px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-20 {
+  margin: 20px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-20 {
+  padding: 20px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-20 {
+  margin-bottom: 20px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-20 {
+  padding-bottom: 20px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-20 {
+  margin: 20px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-20 {
+  margin: auto 20px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-20 {
+  padding: 20px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-20 {
+  padding: auto 20px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-20 {
+  margin: 20px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-20 {
+  padding: 20px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-20 {
+  margin-left: 20px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-20 {
+  padding-left: 20px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-20 {
+  margin: 20px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-20 {
+  margin: auto 20px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-20 {
+  padding: 20px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-20 {
+  padding: auto 20px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-20 {
+  margin: 20px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-20 {
+  padding: 20px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-20 {
+  margin-right: 20px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-20 {
+  padding-right: 20px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-20 {
+  margin: 20px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-20 {
+  margin: auto 20px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-20 {
+  padding: 20px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-20 {
+  padding: auto 20px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-20 {
+  margin: 20px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-20 {
+  padding: 20px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-20 {
+  margin-y: 20px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-20 {
+  padding-y: 20px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-20 {
+  margin: 20px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-20 {
+  margin: auto 20px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-20 {
+  padding: 20px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-20 {
+  padding: auto 20px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-20 {
+  margin: 20px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-20 {
+  padding: 20px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-20 {
+  margin-x: 20px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-20 {
+  padding-x: 20px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-20 {
+  margin: 20px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-20 {
+  margin: auto 20px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-20 {
+  padding: 20px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-20 {
+  padding: auto 20px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-25 {
+  margin: 25px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-25 {
+  padding: 25px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-25 {
+  margin-top: 25px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-25 {
+  padding-top: 25px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-25 {
+  margin: 25px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-25 {
+  margin: auto 25px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-25 {
+  padding: 25px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-25 {
+  padding: auto 25px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-25 {
+  margin: 25px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-25 {
+  padding: 25px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-25 {
+  margin-bottom: 25px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-25 {
+  padding-bottom: 25px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-25 {
+  margin: 25px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-25 {
+  margin: auto 25px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-25 {
+  padding: 25px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-25 {
+  padding: auto 25px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-25 {
+  margin: 25px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-25 {
+  padding: 25px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-25 {
+  margin-left: 25px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-25 {
+  padding-left: 25px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-25 {
+  margin: 25px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-25 {
+  margin: auto 25px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-25 {
+  padding: 25px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-25 {
+  padding: auto 25px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-25 {
+  margin: 25px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-25 {
+  padding: 25px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-25 {
+  margin-right: 25px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-25 {
+  padding-right: 25px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-25 {
+  margin: 25px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-25 {
+  margin: auto 25px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-25 {
+  padding: 25px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-25 {
+  padding: auto 25px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-25 {
+  margin: 25px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-25 {
+  padding: 25px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-25 {
+  margin-y: 25px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-25 {
+  padding-y: 25px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-25 {
+  margin: 25px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-25 {
+  margin: auto 25px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-25 {
+  padding: 25px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-25 {
+  padding: auto 25px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-25 {
+  margin: 25px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-25 {
+  padding: 25px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-25 {
+  margin-x: 25px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-25 {
+  padding-x: 25px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-25 {
+  margin: 25px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-25 {
+  margin: auto 25px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-25 {
+  padding: 25px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-25 {
+  padding: auto 25px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-30 {
+  margin: 30px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-30 {
+  padding: 30px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-30 {
+  margin-top: 30px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-30 {
+  padding-top: 30px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-30 {
+  margin: 30px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-30 {
+  margin: auto 30px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-30 {
+  padding: 30px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-30 {
+  padding: auto 30px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-30 {
+  margin: 30px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-30 {
+  padding: 30px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-30 {
+  margin-bottom: 30px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-30 {
+  padding-bottom: 30px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-30 {
+  margin: 30px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-30 {
+  margin: auto 30px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-30 {
+  padding: 30px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-30 {
+  padding: auto 30px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-30 {
+  margin: 30px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-30 {
+  padding: 30px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-30 {
+  margin-left: 30px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-30 {
+  padding-left: 30px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-30 {
+  margin: 30px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-30 {
+  margin: auto 30px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-30 {
+  padding: 30px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-30 {
+  padding: auto 30px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-30 {
+  margin: 30px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-30 {
+  padding: 30px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-30 {
+  margin-right: 30px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-30 {
+  padding-right: 30px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-30 {
+  margin: 30px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-30 {
+  margin: auto 30px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-30 {
+  padding: 30px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-30 {
+  padding: auto 30px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-30 {
+  margin: 30px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-30 {
+  padding: 30px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-30 {
+  margin-y: 30px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-30 {
+  padding-y: 30px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-30 {
+  margin: 30px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-30 {
+  margin: auto 30px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-30 {
+  padding: 30px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-30 {
+  padding: auto 30px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-30 {
+  margin: 30px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-30 {
+  padding: 30px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-30 {
+  margin-x: 30px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-30 {
+  padding-x: 30px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-30 {
+  margin: 30px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-30 {
+  margin: auto 30px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-30 {
+  padding: 30px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-30 {
+  padding: auto 30px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-35 {
+  margin: 35px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-35 {
+  padding: 35px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-35 {
+  margin-top: 35px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-35 {
+  padding-top: 35px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-35 {
+  margin: 35px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-35 {
+  margin: auto 35px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-35 {
+  padding: 35px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-35 {
+  padding: auto 35px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-35 {
+  margin: 35px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-35 {
+  padding: 35px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-35 {
+  margin-bottom: 35px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-35 {
+  padding-bottom: 35px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-35 {
+  margin: 35px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-35 {
+  margin: auto 35px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-35 {
+  padding: 35px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-35 {
+  padding: auto 35px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-35 {
+  margin: 35px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-35 {
+  padding: 35px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-35 {
+  margin-left: 35px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-35 {
+  padding-left: 35px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-35 {
+  margin: 35px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-35 {
+  margin: auto 35px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-35 {
+  padding: 35px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-35 {
+  padding: auto 35px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-35 {
+  margin: 35px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-35 {
+  padding: 35px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-35 {
+  margin-right: 35px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-35 {
+  padding-right: 35px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-35 {
+  margin: 35px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-35 {
+  margin: auto 35px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-35 {
+  padding: 35px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-35 {
+  padding: auto 35px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-35 {
+  margin: 35px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-35 {
+  padding: 35px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-35 {
+  margin-y: 35px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-35 {
+  padding-y: 35px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-35 {
+  margin: 35px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-35 {
+  margin: auto 35px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-35 {
+  padding: 35px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-35 {
+  padding: auto 35px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-35 {
+  margin: 35px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-35 {
+  padding: 35px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-35 {
+  margin-x: 35px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-35 {
+  padding-x: 35px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-35 {
+  margin: 35px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-35 {
+  margin: auto 35px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-35 {
+  padding: 35px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-35 {
+  padding: auto 35px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-40 {
+  margin: 40px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-40 {
+  padding: 40px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-40 {
+  margin-top: 40px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-40 {
+  padding-top: 40px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-40 {
+  margin: 40px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-40 {
+  margin: auto 40px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-40 {
+  padding: 40px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-40 {
+  padding: auto 40px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-40 {
+  margin: 40px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-40 {
+  padding: 40px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-40 {
+  margin-bottom: 40px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-40 {
+  padding-bottom: 40px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-40 {
+  margin: 40px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-40 {
+  margin: auto 40px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-40 {
+  padding: 40px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-40 {
+  padding: auto 40px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-40 {
+  margin: 40px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-40 {
+  padding: 40px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-40 {
+  margin-left: 40px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-40 {
+  padding-left: 40px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-40 {
+  margin: 40px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-40 {
+  margin: auto 40px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-40 {
+  padding: 40px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-40 {
+  padding: auto 40px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-40 {
+  margin: 40px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-40 {
+  padding: 40px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-40 {
+  margin-right: 40px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-40 {
+  padding-right: 40px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-40 {
+  margin: 40px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-40 {
+  margin: auto 40px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-40 {
+  padding: 40px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-40 {
+  padding: auto 40px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-40 {
+  margin: 40px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-40 {
+  padding: 40px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-40 {
+  margin-y: 40px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-40 {
+  padding-y: 40px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-40 {
+  margin: 40px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-40 {
+  margin: auto 40px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-40 {
+  padding: 40px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-40 {
+  padding: auto 40px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-40 {
+  margin: 40px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-40 {
+  padding: 40px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-40 {
+  margin-x: 40px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-40 {
+  padding-x: 40px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-40 {
+  margin: 40px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-40 {
+  margin: auto 40px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-40 {
+  padding: 40px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-40 {
+  padding: auto 40px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-45 {
+  margin: 45px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-45 {
+  padding: 45px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-45 {
+  margin-top: 45px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-45 {
+  padding-top: 45px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-45 {
+  margin: 45px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-45 {
+  margin: auto 45px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-45 {
+  padding: 45px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-45 {
+  padding: auto 45px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-45 {
+  margin: 45px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-45 {
+  padding: 45px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-45 {
+  margin-bottom: 45px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-45 {
+  padding-bottom: 45px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-45 {
+  margin: 45px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-45 {
+  margin: auto 45px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-45 {
+  padding: 45px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-45 {
+  padding: auto 45px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-45 {
+  margin: 45px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-45 {
+  padding: 45px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-45 {
+  margin-left: 45px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-45 {
+  padding-left: 45px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-45 {
+  margin: 45px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-45 {
+  margin: auto 45px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-45 {
+  padding: 45px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-45 {
+  padding: auto 45px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-45 {
+  margin: 45px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-45 {
+  padding: 45px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-45 {
+  margin-right: 45px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-45 {
+  padding-right: 45px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-45 {
+  margin: 45px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-45 {
+  margin: auto 45px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-45 {
+  padding: 45px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-45 {
+  padding: auto 45px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-45 {
+  margin: 45px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-45 {
+  padding: 45px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-45 {
+  margin-y: 45px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-45 {
+  padding-y: 45px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-45 {
+  margin: 45px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-45 {
+  margin: auto 45px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-45 {
+  padding: 45px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-45 {
+  padding: auto 45px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-45 {
+  margin: 45px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-45 {
+  padding: 45px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-45 {
+  margin-x: 45px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-45 {
+  padding-x: 45px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-45 {
+  margin: 45px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-45 {
+  margin: auto 45px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-45 {
+  padding: 45px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-45 {
+  padding: auto 45px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-50 {
+  margin: 50px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-50 {
+  padding: 50px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-50 {
+  margin-top: 50px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-50 {
+  padding-top: 50px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-50 {
+  margin: 50px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-50 {
+  margin: auto 50px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-50 {
+  padding: 50px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-50 {
+  padding: auto 50px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-50 {
+  margin: 50px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-50 {
+  padding: 50px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-50 {
+  margin-bottom: 50px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-50 {
+  padding-bottom: 50px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-50 {
+  margin: 50px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-50 {
+  margin: auto 50px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-50 {
+  padding: 50px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-50 {
+  padding: auto 50px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-50 {
+  margin: 50px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-50 {
+  padding: 50px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-50 {
+  margin-left: 50px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-50 {
+  padding-left: 50px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-50 {
+  margin: 50px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-50 {
+  margin: auto 50px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-50 {
+  padding: 50px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-50 {
+  padding: auto 50px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-50 {
+  margin: 50px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-50 {
+  padding: 50px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-50 {
+  margin-right: 50px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-50 {
+  padding-right: 50px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-50 {
+  margin: 50px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-50 {
+  margin: auto 50px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-50 {
+  padding: 50px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-50 {
+  padding: auto 50px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-50 {
+  margin: 50px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-50 {
+  padding: 50px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-50 {
+  margin-y: 50px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-50 {
+  padding-y: 50px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-50 {
+  margin: 50px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-50 {
+  margin: auto 50px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-50 {
+  padding: 50px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-50 {
+  padding: auto 50px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-50 {
+  margin: 50px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-50 {
+  padding: 50px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-50 {
+  margin-x: 50px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-50 {
+  padding-x: 50px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-50 {
+  margin: 50px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-50 {
+  margin: auto 50px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-50 {
+  padding: 50px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-50 {
+  padding: auto 50px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-55 {
+  margin: 55px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-55 {
+  padding: 55px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-55 {
+  margin-top: 55px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-55 {
+  padding-top: 55px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-55 {
+  margin: 55px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-55 {
+  margin: auto 55px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-55 {
+  padding: 55px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-55 {
+  padding: auto 55px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-55 {
+  margin: 55px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-55 {
+  padding: 55px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-55 {
+  margin-bottom: 55px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-55 {
+  padding-bottom: 55px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-55 {
+  margin: 55px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-55 {
+  margin: auto 55px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-55 {
+  padding: 55px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-55 {
+  padding: auto 55px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-55 {
+  margin: 55px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-55 {
+  padding: 55px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-55 {
+  margin-left: 55px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-55 {
+  padding-left: 55px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-55 {
+  margin: 55px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-55 {
+  margin: auto 55px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-55 {
+  padding: 55px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-55 {
+  padding: auto 55px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-55 {
+  margin: 55px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-55 {
+  padding: 55px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-55 {
+  margin-right: 55px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-55 {
+  padding-right: 55px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-55 {
+  margin: 55px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-55 {
+  margin: auto 55px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-55 {
+  padding: 55px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-55 {
+  padding: auto 55px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-55 {
+  margin: 55px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-55 {
+  padding: 55px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-55 {
+  margin-y: 55px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-55 {
+  padding-y: 55px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-55 {
+  margin: 55px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-55 {
+  margin: auto 55px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-55 {
+  padding: 55px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-55 {
+  padding: auto 55px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-55 {
+  margin: 55px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-55 {
+  padding: 55px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-55 {
+  margin-x: 55px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-55 {
+  padding-x: 55px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-55 {
+  margin: 55px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-55 {
+  margin: auto 55px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-55 {
+  padding: 55px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-55 {
+  padding: auto 55px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-60 {
+  margin: 60px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-60 {
+  padding: 60px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-60 {
+  margin-top: 60px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-60 {
+  padding-top: 60px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-60 {
+  margin: 60px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-60 {
+  margin: auto 60px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-60 {
+  padding: 60px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-60 {
+  padding: auto 60px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-60 {
+  margin: 60px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-60 {
+  padding: 60px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-60 {
+  margin-bottom: 60px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-60 {
+  padding-bottom: 60px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-60 {
+  margin: 60px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-60 {
+  margin: auto 60px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-60 {
+  padding: 60px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-60 {
+  padding: auto 60px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-60 {
+  margin: 60px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-60 {
+  padding: 60px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-60 {
+  margin-left: 60px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-60 {
+  padding-left: 60px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-60 {
+  margin: 60px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-60 {
+  margin: auto 60px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-60 {
+  padding: 60px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-60 {
+  padding: auto 60px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-60 {
+  margin: 60px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-60 {
+  padding: 60px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-60 {
+  margin-right: 60px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-60 {
+  padding-right: 60px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-60 {
+  margin: 60px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-60 {
+  margin: auto 60px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-60 {
+  padding: 60px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-60 {
+  padding: auto 60px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-60 {
+  margin: 60px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-60 {
+  padding: 60px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-60 {
+  margin-y: 60px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-60 {
+  padding-y: 60px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-60 {
+  margin: 60px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-60 {
+  margin: auto 60px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-60 {
+  padding: 60px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-60 {
+  padding: auto 60px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-60 {
+  margin: 60px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-60 {
+  padding: 60px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-60 {
+  margin-x: 60px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-60 {
+  padding-x: 60px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-60 {
+  margin: 60px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-60 {
+  margin: auto 60px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-60 {
+  padding: 60px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-60 {
+  padding: auto 60px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-80 {
+  margin: 80px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-80 {
+  padding: 80px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-80 {
+  margin-top: 80px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-80 {
+  padding-top: 80px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-80 {
+  margin: 80px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-80 {
+  margin: auto 80px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-80 {
+  padding: 80px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-80 {
+  padding: auto 80px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-80 {
+  margin: 80px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-80 {
+  padding: 80px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-80 {
+  margin-bottom: 80px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-80 {
+  padding-bottom: 80px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-80 {
+  margin: 80px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-80 {
+  margin: auto 80px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-80 {
+  padding: 80px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-80 {
+  padding: auto 80px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-80 {
+  margin: 80px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-80 {
+  padding: 80px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-80 {
+  margin-left: 80px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-80 {
+  padding-left: 80px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-80 {
+  margin: 80px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-80 {
+  margin: auto 80px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-80 {
+  padding: 80px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-80 {
+  padding: auto 80px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-80 {
+  margin: 80px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-80 {
+  padding: 80px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-80 {
+  margin-right: 80px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-80 {
+  padding-right: 80px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-80 {
+  margin: 80px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-80 {
+  margin: auto 80px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-80 {
+  padding: 80px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-80 {
+  padding: auto 80px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-80 {
+  margin: 80px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-80 {
+  padding: 80px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-80 {
+  margin-y: 80px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-80 {
+  padding-y: 80px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-80 {
+  margin: 80px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-80 {
+  margin: auto 80px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-80 {
+  padding: 80px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-80 {
+  padding: auto 80px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-80 {
+  margin: 80px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-80 {
+  padding: 80px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-80 {
+  margin-x: 80px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-80 {
+  padding-x: 80px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-80 {
+  margin: 80px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-80 {
+  margin: auto 80px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-80 {
+  padding: 80px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-80 {
+  padding: auto 80px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-90 {
+  margin: 90px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-90 {
+  padding: 90px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-90 {
+  margin-top: 90px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-90 {
+  padding-top: 90px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-90 {
+  margin: 90px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-90 {
+  margin: auto 90px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-90 {
+  padding: 90px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-90 {
+  padding: auto 90px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-90 {
+  margin: 90px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-90 {
+  padding: 90px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-90 {
+  margin-bottom: 90px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-90 {
+  padding-bottom: 90px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-90 {
+  margin: 90px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-90 {
+  margin: auto 90px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-90 {
+  padding: 90px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-90 {
+  padding: auto 90px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-90 {
+  margin: 90px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-90 {
+  padding: 90px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-90 {
+  margin-left: 90px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-90 {
+  padding-left: 90px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-90 {
+  margin: 90px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-90 {
+  margin: auto 90px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-90 {
+  padding: 90px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-90 {
+  padding: auto 90px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-90 {
+  margin: 90px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-90 {
+  padding: 90px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-90 {
+  margin-right: 90px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-90 {
+  padding-right: 90px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-90 {
+  margin: 90px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-90 {
+  margin: auto 90px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-90 {
+  padding: 90px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-90 {
+  padding: auto 90px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-90 {
+  margin: 90px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-90 {
+  padding: 90px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-90 {
+  margin-y: 90px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-90 {
+  padding-y: 90px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-90 {
+  margin: 90px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-90 {
+  margin: auto 90px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-90 {
+  padding: 90px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-90 {
+  padding: auto 90px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-90 {
+  margin: 90px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-90 {
+  padding: 90px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-90 {
+  margin-x: 90px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-90 {
+  padding-x: 90px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-90 {
+  margin: 90px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-90 {
+  margin: auto 90px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-90 {
+  padding: 90px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-90 {
+  padding: auto 90px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-105 {
+  margin: 105px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-105 {
+  padding: 105px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-105 {
+  margin-top: 105px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-105 {
+  padding-top: 105px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-105 {
+  margin: 105px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-105 {
+  margin: auto 105px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-105 {
+  padding: 105px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-105 {
+  padding: auto 105px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-105 {
+  margin: 105px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-105 {
+  padding: 105px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-105 {
+  margin-bottom: 105px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-105 {
+  padding-bottom: 105px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-105 {
+  margin: 105px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-105 {
+  margin: auto 105px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-105 {
+  padding: 105px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-105 {
+  padding: auto 105px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-105 {
+  margin: 105px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-105 {
+  padding: 105px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-105 {
+  margin-left: 105px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-105 {
+  padding-left: 105px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-105 {
+  margin: 105px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-105 {
+  margin: auto 105px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-105 {
+  padding: 105px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-105 {
+  padding: auto 105px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-105 {
+  margin: 105px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-105 {
+  padding: 105px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-105 {
+  margin-right: 105px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-105 {
+  padding-right: 105px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-105 {
+  margin: 105px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-105 {
+  margin: auto 105px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-105 {
+  padding: 105px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-105 {
+  padding: auto 105px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-105 {
+  margin: 105px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-105 {
+  padding: 105px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-105 {
+  margin-y: 105px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-105 {
+  padding-y: 105px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-105 {
+  margin: 105px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-105 {
+  margin: auto 105px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-105 {
+  padding: 105px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-105 {
+  padding: auto 105px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-105 {
+  margin: 105px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-105 {
+  padding: 105px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-105 {
+  margin-x: 105px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-105 {
+  padding-x: 105px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-105 {
+  margin: 105px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-105 {
+  margin: auto 105px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-105 {
+  padding: 105px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-105 {
+  padding: auto 105px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-115 {
+  margin: 115px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-115 {
+  padding: 115px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-115 {
+  margin-top: 115px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-115 {
+  padding-top: 115px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-115 {
+  margin: 115px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-115 {
+  margin: auto 115px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-115 {
+  padding: 115px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-115 {
+  padding: auto 115px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-115 {
+  margin: 115px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-115 {
+  padding: 115px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-115 {
+  margin-bottom: 115px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-115 {
+  padding-bottom: 115px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-115 {
+  margin: 115px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-115 {
+  margin: auto 115px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-115 {
+  padding: 115px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-115 {
+  padding: auto 115px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-115 {
+  margin: 115px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-115 {
+  padding: 115px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-115 {
+  margin-left: 115px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-115 {
+  padding-left: 115px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-115 {
+  margin: 115px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-115 {
+  margin: auto 115px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-115 {
+  padding: 115px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-115 {
+  padding: auto 115px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-115 {
+  margin: 115px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-115 {
+  padding: 115px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-115 {
+  margin-right: 115px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-115 {
+  padding-right: 115px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-115 {
+  margin: 115px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-115 {
+  margin: auto 115px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-115 {
+  padding: 115px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-115 {
+  padding: auto 115px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-115 {
+  margin: 115px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-115 {
+  padding: 115px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-115 {
+  margin-y: 115px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-115 {
+  padding-y: 115px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-115 {
+  margin: 115px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-115 {
+  margin: auto 115px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-115 {
+  padding: 115px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-115 {
+  padding: auto 115px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-115 {
+  margin: 115px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-115 {
+  padding: 115px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-115 {
+  margin-x: 115px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-115 {
+  padding-x: 115px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-115 {
+  margin: 115px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-115 {
+  margin: auto 115px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-115 {
+  padding: 115px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-115 {
+  padding: auto 115px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-145 {
+  margin: 145px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-145 {
+  padding: 145px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-145 {
+  margin-top: 145px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-145 {
+  padding-top: 145px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-145 {
+  margin: 145px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-145 {
+  margin: auto 145px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-145 {
+  padding: 145px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-145 {
+  padding: auto 145px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-145 {
+  margin: 145px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-145 {
+  padding: 145px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-145 {
+  margin-bottom: 145px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-145 {
+  padding-bottom: 145px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-145 {
+  margin: 145px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-145 {
+  margin: auto 145px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-145 {
+  padding: 145px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-145 {
+  padding: auto 145px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-145 {
+  margin: 145px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-145 {
+  padding: 145px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-145 {
+  margin-left: 145px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-145 {
+  padding-left: 145px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-145 {
+  margin: 145px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-145 {
+  margin: auto 145px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-145 {
+  padding: 145px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-145 {
+  padding: auto 145px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-145 {
+  margin: 145px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-145 {
+  padding: 145px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-145 {
+  margin-right: 145px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-145 {
+  padding-right: 145px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-145 {
+  margin: 145px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-145 {
+  margin: auto 145px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-145 {
+  padding: 145px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-145 {
+  padding: auto 145px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-145 {
+  margin: 145px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-145 {
+  padding: 145px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-145 {
+  margin-y: 145px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-145 {
+  padding-y: 145px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-145 {
+  margin: 145px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-145 {
+  margin: auto 145px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-145 {
+  padding: 145px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-145 {
+  padding: auto 145px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-145 {
+  margin: 145px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-145 {
+  padding: 145px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-145 {
+  margin-x: 145px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-145 {
+  padding-x: 145px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-145 {
+  margin: 145px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-145 {
+  margin: auto 145px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-145 {
+  padding: 145px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-145 {
+  padding: auto 145px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-120 {
+  margin: 120px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-120 {
+  padding: 120px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-t-120 {
+  margin-top: 120px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-t-120 {
+  padding-top: 120px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-120 {
+  margin: 120px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-120 {
+  margin: auto 120px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-120 {
+  padding: 120px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-120 {
+  padding: auto 120px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-120 {
+  margin: 120px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-120 {
+  padding: 120px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-b-120 {
+  margin-bottom: 120px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-b-120 {
+  padding-bottom: 120px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-120 {
+  margin: 120px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-120 {
+  margin: auto 120px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-120 {
+  padding: 120px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-120 {
+  padding: auto 120px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-120 {
+  margin: 120px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-120 {
+  padding: 120px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-l-120 {
+  margin-left: 120px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-l-120 {
+  padding-left: 120px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-120 {
+  margin: 120px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-120 {
+  margin: auto 120px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-120 {
+  padding: 120px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-120 {
+  padding: auto 120px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-120 {
+  margin: 120px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-120 {
+  padding: 120px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-r-120 {
+  margin-right: 120px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-r-120 {
+  padding-right: 120px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-120 {
+  margin: 120px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-120 {
+  margin: auto 120px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-120 {
+  padding: 120px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-120 {
+  padding: auto 120px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-120 {
+  margin: 120px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-120 {
+  padding: 120px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-y-120 {
+  margin-y: 120px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-y-120 {
+  padding-y: 120px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-120 {
+  margin: 120px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-120 {
+  margin: auto 120px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-120 {
+  padding: 120px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-120 {
+  padding: auto 120px !important; }
+
+/* line 26, ../src/Components/functions/_functions.scss */
+.m-120 {
+  margin: 120px !important; }
+
+/* line 29, ../src/Components/functions/_functions.scss */
+.p-120 {
+  padding: 120px !important; }
+
+/* line 32, ../src/Components/functions/_functions.scss */
+.m-x-120 {
+  margin-x: 120px !important; }
+
+/* line 36, ../src/Components/functions/_functions.scss */
+.p-x-120 {
+  padding-x: 120px !important; }
+
+/* line 39, ../src/Components/functions/_functions.scss */
+.m-y-120 {
+  margin: 120px auto !important; }
+
+/* line 42, ../src/Components/functions/_functions.scss */
+.m-x-120 {
+  margin: auto 120px !important; }
+
+/* line 45, ../src/Components/functions/_functions.scss */
+.p-y-120 {
+  padding: 120px auto !important; }
+
+/* line 48, ../src/Components/functions/_functions.scss */
+.p-x-120 {
+  padding: auto 120px !important; }
+
+@-webkit-keyframes anim {
+  to {
+    width: 100%; } }
+@-moz-keyframes anim {
+  to {
+    width: 100%; } }
+@-o-keyframes anim {
+  to {
+    width: 100%; } }
+@keyframes anim {
+  to {
+    width: 100%; } }
+@-webkit-keyframes letter-anim {
+  from {
+    letter-spacing: -17px; }
+  to {
+    letter-spacing: initial; } }
+@-moz-keyframes letter-anim {
+  from {
+    letter-spacing: -17px; }
+  to {
+    letter-spacing: initial; } }
+@-o-keyframes letter-anim {
+  from {
+    letter-spacing: -17px; }
+  to {
+    letter-spacing: initial; } }
+@keyframes letter-anim {
+  from {
+    letter-spacing: -17px; }
+  to {
+    letter-spacing: initial; } }
+@media screen and (max-width: 767px) {
+  /* line 4, ../src/Components/layout/_responsive.scss */
+  .overflow-hide {
+    overflow: hidden; }
+
+  /* line 7, ../src/Components/layout/_responsive.scss */
+  header .navbar-menu {
+    margin-top: 0 !important; }
+
+  /* line 11, ../src/Components/layout/_responsive.scss */
+  .container-sm {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  /* line 16, ../src/Components/layout/_responsive.scss */
+  .article {
+    text-align: center;
+    padding: 10px 15px; }
+    /* line 20, ../src/Components/layout/_responsive.scss */
+    .article-img {
+      float: none !important;
+      margin: 30px auto !important; }
+    /* line 25, ../src/Components/layout/_responsive.scss */
+    .article-tabs {
+      display: grid;
+      text-align: center; }
+      /* line 29, ../src/Components/layout/_responsive.scss */
+      .article-tabs li {
+        padding-right: 0 !important;
+        margin: 10px auto; }
+
+  /* line 39, ../src/Components/layout/_responsive.scss */
+  header .navbar-brand {
+    padding-left: 15px; }
+  /* line 45, ../src/Components/layout/_responsive.scss */
+  header .navbar-menu li:last-child {
+    padding: 10px 15px;
+    display: block; }
+    /* line 49, ../src/Components/layout/_responsive.scss */
+    header .navbar-menu li:last-child.icon {
+      display: block; }
+  /* line 54, ../src/Components/layout/_responsive.scss */
+  header .navbar-menu li:not(:last-child) {
+    display: none; }
+  /* line 60, ../src/Components/layout/_responsive.scss */
+  header .navbar-menu.active-menu {
+    background: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 44% 0;
+    display: block !important;
+    bottom: 0;
+    text-align: center;
+    z-index: 999;
+    display: block; }
+    /* line 74, ../src/Components/layout/_responsive.scss */
+    header .navbar-menu.active-menu li {
+      display: block !important; }
+      /* line 77, ../src/Components/layout/_responsive.scss */
+      header .navbar-menu.active-menu li a {
+        font-size: 27px; }
+      /* line 82, ../src/Components/layout/_responsive.scss */
+      header .navbar-menu.active-menu li:last-child a {
+        position: absolute;
+        top: 10%;
+        right: 7%; }
+  /* line 94, ../src/Components/layout/_responsive.scss */
+  header .slider h2 {
+    font-size: 28px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  /* line 101, ../src/Components/layout/_responsive.scss */
+  header .slider .slick-prev, header .slider .slick-next {
+    display: none !important; }
+
+  /* line 111, ../src/Components/layout/_responsive.scss */
+  .contact-form input[type='text'] {
+    margin-bottom: 30px; }
+  /* line 117, ../src/Components/layout/_responsive.scss */
+  .contact-heading p {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  /* line 125, ../src/Components/layout/_responsive.scss */
+  .s-block-f {
+    padding: 10px 15px; }
+    /* line 128, ../src/Components/layout/_responsive.scss */
+    .s-block-f::after {
+      right: 11% !important;
+      top: 14% !important; }
+
+  /* line 138, ../src/Components/layout/_responsive.scss */
+  .footer-links {
+    padding: 0;
+    display: grid; } }
+@media screen and (min-width: 768px) {
+  /* line 148, ../src/Components/layout/_responsive.scss */
+  .navbar-menu li:last-child {
+    display: none; } }
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  /* line 154, ../src/Components/layout/_responsive.scss */
+  .article-tabs {
+    padding: 0; } }
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  /* line 160, ../src/Components/layout/_responsive.scss */
+  .article {
+    flex-flow: wrap;
+    display: flex; }
+    /* line 164, ../src/Components/layout/_responsive.scss */
+    .article-img {
+      margin-bottom: 20px; }
+
+  /* line 170, ../src/Components/layout/_responsive.scss */
+  .slick-next {
+    right: -8px !important; }
+  /* line 174, ../src/Components/layout/_responsive.scss */
+  .slick-prev {
+    left: -8px !important; } }
+/* line 2, ../src/Components/atoms/_button.scss */
+.theme-btn {
+  color: #fff;
+  font-size: 17.8px;
+  font-weight: 100;
+  text-decoration: none;
+  padding: 26px 90px 23px 81px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  line-height: 1; }
+  /* line 21, ../src/Components/atoms/_button.scss */
+  .theme-btn.btn {
+    text-align: center; }
+  /* line 24, ../src/Components/atoms/_button.scss */
+  .theme-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none; }
+  /* line 31, ../src/Components/atoms/_button.scss */
+  .theme-btn.orange {
+    background: #eb7d4b;
+    border-bottom: 4px solid #c86a40; }
+    /* line 34, ../src/Components/atoms/_button.scss */
+    .theme-btn.orange:hover {
+      background: #c86a40; }
+  /* line 38, ../src/Components/atoms/_button.scss */
+  .theme-btn.light-blue {
+    background: #30bae7;
+    border-bottom: 4px solid #299ec5; }
+    /* line 41, ../src/Components/atoms/_button.scss */
+    .theme-btn.light-blue:hover {
+      background: #299ec5; }
+
+/* line 3, ../src/Components/atoms/_input.scss */
+.contact-form form input[type=text], .contact-form form input[type=email], .contact-form form textarea {
+  padding: 21px 25px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  width: 100%;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff; }
+  /* line 11, ../src/Components/atoms/_input.scss */
+  .contact-form form input[type=text]:focus + label, .contact-form form input[type=email]:focus + label, .contact-form form textarea:focus + label {
+    margin-top: -22px;
+    font-size: 70%;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+/* line 17, ../src/Components/atoms/_input.scss */
+.contact-form form label {
+  position: absolute;
+  color: #fff;
+  left: 42px;
+  top: 19px;
+  font-weight: 300;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+  /* line 24, ../src/Components/atoms/_input.scss */
+  .contact-form form label span {
+    color: red; }
+
+/* line 1, ../src/Components/atoms/_navlist.scss */
+.navbar {
+  padding-top: 50px; }
+  /* line 3, ../src/Components/atoms/_navlist.scss */
+  .navbar-menu {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 0; }
+    /* line 8, ../src/Components/atoms/_navlist.scss */
+    .navbar-menu li {
+      padding: 12px 20px;
+      display: inline-block;
+      cursor: pointer;
+      line-height: 1; }
+      /* line 14, ../src/Components/atoms/_navlist.scss */
+      .navbar-menu li:not(:last-child):hover {
+        background-color: rgba(0, 0, 0, 0.2);
+        -webkit-border-radius: 7px;
+        -o-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        border-radius: 7px; }
+      /* line 19, ../src/Components/atoms/_navlist.scss */
+      .navbar-menu li a {
+        font-weight: 100;
+        font-size: 15px; }
+        /* line 22, ../src/Components/atoms/_navlist.scss */
+        .navbar-menu li a:hover, .navbar-menu li a:focus {
+          color: #fff;
+          text-decoration: unset; }
+  /* line 30, ../src/Components/atoms/_navlist.scss */
+  .navbar-brand {
+    padding: 0; }
+    /* line 32, ../src/Components/atoms/_navlist.scss */
+    .navbar-brand img {
+      padding: 5px; }
+
+/* line 1, ../src/Components/atoms/_icons.scss */
+.icon {
+  position: relative;
+  transform-origin: 4px 0px; }
+  /* line 6, ../src/Components/atoms/_icons.scss */
+  .icon.rotate .middle {
+    display: none; }
+  /* line 9, ../src/Components/atoms/_icons.scss */
+  .icon.rotate .bottom {
+    transform: rotate(-45deg);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+  /* line 13, ../src/Components/atoms/_icons.scss */
+  .icon.rotate .upper {
+    transform: rotate(45deg) translate(6px, 7px);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+  /* line 19, ../src/Components/atoms/_icons.scss */
+  .icon-bar {
+    height: 4px;
+    background: #fff;
+    width: 30px;
+    display: block;
+    margin-bottom: 5px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+  /* line 29, ../src/Components/atoms/_icons.scss */
+  .icon input {
+    position: absolute;
+    display: block;
+    width: 51px;
+    height: 28px;
+    position: absolute;
+    top: -3px;
+    left: -10px;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+
+/* line 1, ../src/Components/molecules/article/_image.scss */
+.article-img {
+  float: left;
+  width: 130px;
+  height: 130px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  margin-right: 32px;
+  position: relative; }
+  /* line 8, ../src/Components/molecules/article/_image.scss */
+  .article-img img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: auto; }
+
+/* line 1, ../src/Components/molecules/article/_content.scss */
+.article-content {
+  font-family: 'Open Sans', sans-serif; }
+  /* line 3, ../src/Components/molecules/article/_content.scss */
+  .article-content h3 {
+    font-size: 18px;
+    background: transparent;
+    font-weight: bold; }
+  /* line 8, ../src/Components/molecules/article/_content.scss */
+  .article-content-subtitle {
+    font-size: 16px;
+    font-style: italic; }
+  /* line 12, ../src/Components/molecules/article/_content.scss */
+  .article-content-text {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.09px; }
+
+/* line 1, ../src/Components/molecules/search/_sinput.scss */
+::placeholder {
+  font-size: 15px;
+  color: #ccc; }
+
+/* line 7, ../src/Components/molecules/search/_sinput.scss */
+.s-block-f input {
+  padding: 15.5px 30px;
+  border: 1px solid #ccc;
+  background: #fff;
+  -webkit-border-radius: 33px;
+  -o-border-radius: 33px;
+  -moz-border-radius: 33px;
+  -ms-border-radius: 33px;
+  border-radius: 33px;
+  box-shadow: 0px 2px 0px #f5f5f5;
+  font-size: 15px;
+  position: relative;
+  width: 100%; }
+  /* line 19, ../src/Components/molecules/search/_sinput.scss */
+  .s-block-f input:active {
+    outline: none; }
+/* line 23, ../src/Components/molecules/search/_sinput.scss */
+.s-block-f::after {
+  position: absolute;
+  content: "";
+  background: url("./../img/search.png") no-repeat;
+  background-position: right;
+  height: 50px;
+  width: 50px;
+  right: 23px;
+  top: 0%;
+  z-index: 3; }
+
+/* line 1, ../src/Components/molecules/article/_tabs.scss */
+.article-tabs {
+  margin-top: 13px;
+  padding-left: 0; }
+  /* line 4, ../src/Components/molecules/article/_tabs.scss */
+  .article-tabs li {
+    font-size: 20px;
+    padding-right: 53px; }
+    /* line 8, ../src/Components/molecules/article/_tabs.scss */
+    .article-tabs li:hover a::after {
+      content: "";
+      background: #eb7d4b;
+      height: 4px;
+      width: 0%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      -webkit-animation-duration: 0.3s;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-name: anim;
+      -moz-animation-duration: 0.3s;
+      -moz-animation-timing-function: ease-in;
+      -moz-animation-fill-mode: forwards;
+      -moz-animation-name: anim;
+      -o-animation-duration: 0.3s;
+      -o-animation-timing-function: ease-in;
+      -o-animation-fill-mode: forwards;
+      -o-animation-name: anim;
+      animation-duration: 0.3s;
+      animation-name: anim;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards;
+      right: 0; }
+    /* line 20, ../src/Components/molecules/article/_tabs.scss */
+    .article-tabs li a {
+      text-decoration: none;
+      padding-bottom: 4px;
+      color: #000;
+      font-weight: bold;
+      position: relative; }
+
+/* line 1, ../src/Components/molecules/footer/_list.scss */
+.footer-links {
+  margin: 33px 0 25px; }
+  /* line 3, ../src/Components/molecules/footer/_list.scss */
+  .footer-links li {
+    padding: 10px 22px;
+    display: inline-block;
+    cursor: pointer; }
+    /* line 7, ../src/Components/molecules/footer/_list.scss */
+    .footer-links li a {
+      font-size: 22px;
+      -webkit-transition: all 0.4s ease 0s;
+      -moz-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s;
+      color: #fff; }
+      /* line 13, ../src/Components/molecules/footer/_list.scss */
+      .footer-links li a:hover {
+        color: #30bae7;
+        -webkit-transition: all 0.4s ease 0s;
+        -moz-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+        text-decoration: none; }
+
+/* line 1, ../src/Components/organisms/_header.scss */
+header {
+  background-color: #87509c; }
+
+/* line 1, ../src/Components/organisms/_menubar.scss */
+.drop {
+  position: relative; }
+  /* line 5, ../src/Components/organisms/_menubar.scss */
+  .drop:hover::after {
+    content: "";
+    position: absolute;
+    left: 37%;
+    bottom: -12px;
+    z-index: 9999;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgba(0, 0, 0, 0.2); }
+  /* line 17, ../src/Components/organisms/_menubar.scss */
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    height: 100vh;
+    left: 0;
+    padding-right: -17px;
+    right: 17px;
+    margin-top: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  /* line 30, ../src/Components/organisms/_menubar.scss */
+  .drop-wrapper {
+    background: url("https://demo.accesspressthemes.com/wordpress-plugins/wp-mega-menu-pro/wp-content/uploads/2016/12/2016-12-11-1.jpg") no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 86%;
+    text-align: left; }
+    /* line 38, ../src/Components/organisms/_menubar.scss */
+    .drop-wrapper a {
+      display: block;
+      padding: 12px 0;
+      font-size: 18px !important; }
+      /* line 43, ../src/Components/organisms/_menubar.scss */
+      .drop-wrapper a:hover {
+        color: #eb7d4b !important; }
+    /* line 48, ../src/Components/organisms/_menubar.scss */
+    .drop-wrapper .header {
+      background: #fff;
+      padding: 16px;
+      color: #000; }
+    /* line 54, ../src/Components/organisms/_menubar.scss */
+    .drop-wrapper h3 {
+      font-size: 20px; }
+
+/* line 2, ../src/Components/organisms/_slider.scss */
+.slider-content {
+  margin: auto; }
+/* line 5, ../src/Components/organisms/_slider.scss */
+.slider h2 {
+  margin-top: 143px;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  line-height: 1; }
+/* line 14, ../src/Components/organisms/_slider.scss */
+.slider .slick-slider {
+  cursor: grab; }
+  /* line 17, ../src/Components/organisms/_slider.scss */
+  .slider .slick-slider:focus {
+    outline: none; }
+/* line 22, ../src/Components/organisms/_slider.scss */
+.slider .slick-prev::before {
+  background-image: url(../img/left-arrow.png);
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: cover; }
+/* line 32, ../src/Components/organisms/_slider.scss */
+.slider .slick-next::before {
+  background-image: url(../img/right-arrow.png);
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: cover; }
+/* line 41, ../src/Components/organisms/_slider.scss */
+.slider .slick-arrow {
+  width: 50px;
+  height: 50px; }
+
+/* line 1, ../src/Components/organisms/_searchsec.scss */
+.s-block {
+  background: #f9f9f9; }
+
+/* line 1, ../src/Components/organisms/_articlesec.scss */
+.articles-section {
+  background: #f9f9f9; }
+
+/* line 1, ../src/Components/organisms/_contact.scss */
+.contact {
+  background: #3c5499; }
+  /* line 5, ../src/Components/organisms/_contact.scss */
+  .contact-heading h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 0;
+    position: relative;
+    line-height: 1; }
+    /* line 16, ../src/Components/organisms/_contact.scss */
+    .contact-heading h2::before {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      height: 4px;
+      left: 0;
+      right: 0;
+      width: 84px;
+      background: rgba(0, 0, 0, 0.3);
+      margin: auto; }
+    /* line 27, ../src/Components/organisms/_contact.scss */
+    .contact-heading h2.letteranimation {
+      -webkit-animation-duration: 1.3s;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-name: letter-anim;
+      -moz-animation-duration: 1.3s;
+      -moz-animation-timing-function: ease-in;
+      -moz-animation-fill-mode: forwards;
+      -moz-animation-name: letter-anim;
+      -o-animation-duration: 1.3s;
+      -o-animation-timing-function: ease-in;
+      -o-animation-fill-mode: forwards;
+      -o-animation-name: letter-anim;
+      animation-duration: 1.3s;
+      animation-name: letter-anim;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards; }
+  /* line 32, ../src/Components/organisms/_contact.scss */
+  .contact-heading p {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 1; }
+
+/* line 1, ../src/Components/organisms/_footer.scss */
+.footer {
+  background: #344b8e; }
+
+/*# sourceMappingURL=style.css.map */

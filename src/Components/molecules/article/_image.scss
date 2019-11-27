@@ -1,0 +1,16 @@
+.article-img {
+    float: left;    
+    width: 130px;
+    height: 130px;
+    @include border-radius(4px);
+    margin-right: 32px; 
+    position: relative;
+        img {                        
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            height: auto;
+            width: auto;
+        }       
+}

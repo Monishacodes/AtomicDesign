@@ -1,0 +1,18 @@
+.article-content {
+    font-family: 'Open Sans', sans-serif;
+    h3{
+        font-size:$f-normal;
+        background: transparent; 
+        font-weight: bold;                                 
+    }
+    &-subtitle {
+        font-size:$f-small; 
+        font-style: italic;         
+    }
+    &-text {
+        color: $dark-gray;
+        font-size: $f-small;                    
+        line-height: 1.2;
+        letter-spacing: 0.09px;
+    }        
+}

@@ -1,0 +1,20 @@
+.footer-links {
+    margin : 33px 0 25px;
+    li{
+        padding: 10px 22px;
+        display: inline-block;
+        cursor: pointer;
+        a {
+            //font-size: $f-large;
+            font-size: 22px;
+            @include transition(all, 0.4s, ease, 0s );
+            color: $white;
+    
+            &:hover {
+                color: $light-blue;
+                @include transition(all, 0.4s, ease, 0s );
+                text-decoration: none;
+            }
+        }
+    }
+}

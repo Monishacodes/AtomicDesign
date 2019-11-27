@@ -1,0 +1,36 @@
+.navbar {
+    padding-top: 50px;
+    &-menu {
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 0;
+
+        li {
+            padding:12px 20px;
+            display: inline-block;
+            cursor: pointer;
+            line-height: 1;
+            &:not(:last-child) {
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.2);
+                    @include border-radius(7px);
+                }
+            }
+            a {
+                font-weight: 100;
+                font-size: 15px;
+                &:hover,
+                &:focus {
+                    color: $white;
+                    text-decoration: unset;
+                }
+            }
+        }           
+    }
+    &-brand {
+        padding: 0;
+        img {
+            padding: 5px;
+        }
+    }
+}

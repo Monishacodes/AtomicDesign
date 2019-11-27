@@ -1,0 +1,45 @@
+
+//Themee color that are using throughout the website
+
+//basic colors
+$white:#fff !default;
+$black:#000 !default;
+$red: red !default;
+
+//theme colors
+$gray-100:#f9f9f9!default;
+$dark-gray:#666 !default;
+$light-gray: #ccc !default;
+$orange: #eb7d4b !default;
+$light-blue:#30bae7 !default;
+$purple :#87509c !default;
+$blue : #3c5499 !default;
+$border-orange:#c86a40 !default;
+$border-lightblue:#299ec5 !default;
+$dark-text: #474b53 !default;
+$footer-blue:#344b8e !default;
+
+//article img background colors
+
+$art-blue:#203d9b;
+$art-yellow:#cc8a22;
+$art-pink:#cc227e;
+
+.text-orange {
+    color: $orange;
+}
+.text-black {
+    color:$black;
+}
+.text-white {
+    color: $white;
+}
+.art-pink {
+    background: $art-pink;
+}
+.art-yellow {
+    background: $art-yellow;
+}
+.art-blue {
+  background: $art-blue;
+}

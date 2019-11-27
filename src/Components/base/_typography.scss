@@ -1,0 +1,23 @@
+//different font size 
+
+$f-normal:18px;
+$f-large:20px;
+$f-xlarge:40px;
+$f-small:16px;
+$f-xsmall:15px;
+
+
+
+.text {
+    &-center{
+        text-align: center;
+    }
+    &-right{
+        text-align: right;
+    }
+    &-sans {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+
